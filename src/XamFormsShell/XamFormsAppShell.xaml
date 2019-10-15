@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       mc:Ignorable="d"
+       x:Class="XamFormsShell.XamFormsAppShell"
+       xmlns:flectopages="clr-namespace:XamFormsShell.XFViews"
+       xmlns:flectoflyoutheaderpages="clr-namespace:XamFormsShell.XFViews.FlyoutHeaders"
+       Title="XamFormsShell"
+       FlyoutBackgroundColor="Gray">
+
+    <!--<FlyoutItem>
+        <flectopages:SettingsView Title="Settings"/>
+    </FlyoutItem>-->
+    <!--<ShellItem>
+        <flectopages:FlectoHomeView Title="Home"/>
+    </ShellItem>-->
+
+    <Shell.FlyoutHeader>
+        <flectoflyoutheaderpages:FlectoFlyoutHeader/>
+    </Shell.FlyoutHeader>
+
+    <ShellItem Title="Home" Icon="flyout_home.png">
+        <flectopages:HomeView Title="Home Page"/>
+    </ShellItem>
+
+    <ShellItem Title="My Profile" Icon="flyout_profile.png">
+        <flectopages:MyProfileView Title="My Profile Page"/>
+    </ShellItem>
+
+    <ShellItem Title="Flecto Functions" Icon="flyout_lightning.png">
+        <flectopages:FunctionsView  Title="Flecto Functions" />
+    </ShellItem>
+
+    <MenuItem Text="About Flecto" IconImageSource="flyout_questionmark.png"/>
+    <MenuItem Text="Settings" IconImageSource="flyout_settings.png"/>
+</Shell>

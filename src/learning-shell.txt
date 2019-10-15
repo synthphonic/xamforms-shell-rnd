@@ -1,0 +1,18 @@
+﻿Shell
+    https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/shell/flyout?WT.mc_id=docs-xamarinblog-jamont
+    https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/shell/flyout
+    https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/shell/
+
+    http://alejandroruizvarela.blogspot.com/2019/02/xamarin-month-fall-in-love-with.html
+    https://medium.com/@thebaileybrew/xamarin-forms-shell-lets-customize-the-flyout-menu-de3df2450f56
+    https://github.com/codemillmatt/forms-shell-demo/blob/master/src/ShellDemo/ShellPage.xaml
+    
+
+Image Rounded Corner using Frame
+    https://montemagno.com/xamarin-forms-how-to-clip-images-with-rounded-corners/
+
+Threading
+    https://johnthiriet.com/removing-async-void/#
+
+Async Command
+    https://johnthiriet.com/mvvm-going-async-with-async-command/#

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamFormsShell.XFViews.FlyoutHeaders.FlectoFlyoutHeader"
+             HeightRequest="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+
+        <Image Grid.RowSpan="3" Source="flyout_background.png" Aspect="Fill" Opacity="0.6"/>
+        <StackLayout Grid.Row="1">            
+            <Frame CornerRadius="50"
+                   WidthRequest="100"
+                   HeightRequest="100"
+                   BackgroundColor="Green"
+                   IsClippedToBounds="True"
+                   Padding="0"
+                   HorizontalOptions="Center">
+                <Image Source="userimage.png" BackgroundColor="Brown" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </Frame>
+
+            <Label Text="Flecto User" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Body"/>            
+        </StackLayout>
+    </Grid>
+</ContentView>
